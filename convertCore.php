@@ -2069,6 +2069,8 @@ list ($EncryptionVerified, $URLEcho) = verifyEncryption();
 if (!$EncryptionVerified) errorEntry('Could not verify connection!', 10, TRUE);
 else if ($Verbose) logEntry('Verified inbound connection.');
 
+echo $SupportedConversionTypes
+print $SupportedConversionTypes
 // / The following code verifies & sanitizes global variables for the session.
 list ($GlobalsAreVerified, $CoreLoaded) = verifyGlobals();
 if (!$GlobalsAreVerified) errorEntry('Could not verify globals!', 11, TRUE);
